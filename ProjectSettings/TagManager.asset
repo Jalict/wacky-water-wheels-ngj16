@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Front
+  - WaterDrop
   layers:
   - Default
   - TransparentFX
