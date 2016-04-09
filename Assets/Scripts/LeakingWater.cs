@@ -3,7 +3,6 @@ using System.Collections;
 
 public class LeakingWater : MonoBehaviour {
 
-	private float fullTruck = 43f;
 	public float currentWaterAmount = 43f;
 	private float emptyTruck = -38f;
 	public GameObject waterPlane;
@@ -38,8 +37,6 @@ public class LeakingWater : MonoBehaviour {
 				leftParticleSystem.Stop();
 			}
 		}
-		Debug.Log(transform.localRotation.z * Mathf.Rad2Deg);
-
 		waterPlane.transform.Rotate(Vector3.forward, (waterRotation - transform.localRotation.z)*200);
 		waterRotation = transform.localRotation.z;
 	}
