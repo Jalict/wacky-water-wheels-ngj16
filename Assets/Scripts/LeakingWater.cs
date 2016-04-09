@@ -10,10 +10,19 @@ public class LeakingWater : MonoBehaviour {
 	public ParticleSystem rightParticleSystem;
 	public ParticleSystem leftParticleSystem;
 
+	//Time and score measuring stuff
+	public bool gameFinished;
+	public int score;
+	private float startTime;
+	private float runningTime;
+
 
 	// Use this for initialization
 	void Start () {
 		waterRotation = transform.localRotation.z;
+		startTime = Time.time;
+		gameFinished = false;
+		score = 0;
 	}
 	
 	// Update is called once per frame
@@ -40,6 +49,22 @@ public class LeakingWater : MonoBehaviour {
 		waterPlane.transform.Rotate(Vector3.forward, (waterRotation - transform.localRotation.z)*200);
 		waterRotation = transform.localRotation.z;
 	}
+
+	void FixedUpdate() {
+		if(gameFinished){
+			runningTime = Time.time - startTime;
+		}
+	}
+
+	void OnTriggerEnter (Collider col)
+    {
+        if(col.gameObject.name == "FinishBox")
+        {
+        	gameFinished = true;
+        	score = (((int)(runningTime / (Mathf.Pow((int)runningTime,2))) + 123) * 44) + ((int)currentWaterAmount + 39) * 25;
+            Destroy(col.gameObject);
+        }
+    } 
 
 
 }

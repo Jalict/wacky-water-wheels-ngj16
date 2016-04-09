@@ -12,28 +12,31 @@ public class GameManager : MonoBehaviour {
 	bool isMenuOn = false;
 
 	public Texture2D Tex0;
+	public LeakingWater scoreScript;
+	private bool showScore = false;
 
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.F1)){
-			isMenuOn = true;
-		}
-		if(Input.GetKeyDown(KeyCode.F2)){
-			isMenuOn = false;
+			isMenuOn = !isMenuOn;
 		}
 		if(isMenuOn == true){
 			if(Input.GetKeyDown(KeyCode.Space)){
 				Application.LoadLevel (0);
 			}
-			if(Input.GetKeyDown(KeyCode.Q)){
-				//End game
+			if(Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Escape)){
+				Application.Quit();
 			}
+		}
+		if(scoreScript.gameFinished){
+			isMenuOn = true;
+			showScore = true;
+
 		}
 	}
 	void OnGUI(){
@@ -49,6 +52,9 @@ public class GameManager : MonoBehaviour {
 			nStyle.fontSize = 26;
 			GUI.Label (new Rect (0, Screen.height-30, 200, 200), "Press SPACE to restart: " , nStyle);
 			GUI.Label (new Rect (Screen.width-200, 10, 200, 200), "Press Q to quit: " , nStyle);
+			if(showScore){
+				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2, 200, 200), "Score: " + scoreScript.score, nStyle);
+			}
 
 	}
 		if(isMenuOn == false){
