@@ -8,6 +8,9 @@ public class LeakingWater : MonoBehaviour {
 	private float emptyTruck = -38f;
 	public GameObject waterPlane;
 	private float waterRotation;
+	public ParticleSystem rightParticleSystem;
+	public ParticleSystem leftParticleSystem;
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +25,17 @@ public class LeakingWater : MonoBehaviour {
 				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/50;
 				v.y = currentWaterAmount;
 				waterPlane.transform.localPosition = v;
+				if(transform.localRotation.z * Mathf.Rad2Deg < -1f){
+					leftParticleSystem.Stop();
+					rightParticleSystem.Play();
+				}
+				else if(transform.localRotation.z * Mathf.Rad2Deg > 1f){
+					rightParticleSystem.Stop();
+					leftParticleSystem.Play();
+				}
+			}else{
+				rightParticleSystem.Stop();
+				leftParticleSystem.Stop();
 			}
 		}
 		Debug.Log(transform.localRotation.z * Mathf.Rad2Deg);
@@ -29,4 +43,6 @@ public class LeakingWater : MonoBehaviour {
 		waterPlane.transform.Rotate(Vector3.forward, (waterRotation - transform.localRotation.z)*200);
 		waterRotation = transform.localRotation.z;
 	}
+
+
 }
