@@ -50,7 +50,7 @@ public class Driver : MonoBehaviour
         {
             if (wheelTransform.CompareTag("Front"))
             {
-                wheelTransform.localRotation = Quaternion.Euler(0, steer * maxWheelRotation, 90);
+                wheelTransform.localRotation = Quaternion.Euler(0,90 + steer * maxWheelRotation, 90);
             }
         }
     }
