@@ -85,6 +85,282 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &69627111
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &71457326
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.8490243
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.19663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &105056976
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.23397565
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.3033669
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &114748275
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &299290808
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &326415909
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.38602448
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.19663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &330758573
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +435,307 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
+--- !u!1001 &479814714
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &485201463
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &521016654
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &533003089 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+  m_PrefabInternal: {fileID: 2090136890}
+--- !u!114 &533003094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9f06b53dd9bb74183e46efa923bcdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &533003095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 90.98099, y: 15.7, z: 103.124405}
+  m_Center: {x: 1.8544636, y: -39.85, z: 1.0949574}
+--- !u!65 &533003096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 90.98099, y: 92.585335, z: 16.8}
+  m_Center: {x: 1.8544636, y: -4.3098946, z: -40.9}
+--- !u!65 &533003097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 90.98099, y: 92.585335, z: 12}
+  m_Center: {x: 1.8544636, y: -4.3098946, z: 41.49}
+--- !u!65 &533003098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.9, y: 92.585335, z: 103.124405}
+  m_Center: {x: -38.74, y: -4.3098946, z: 1.0949574}
+--- !u!65 &533003099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533003089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.5, y: 92.585335, z: 103.124405}
+  m_Center: {x: 39.8, y: -4.3098946, z: 1.0949574}
+--- !u!1 &548046385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 548046386}
+  m_Layer: 0
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &548046386
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548046385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0339756, y: 3.0325406, z: -3.856633}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2120792641}
+  - {fileID: 741245034}
+  - {fileID: 1132364617}
+  - {fileID: 660778584}
+  - {fileID: 705631100}
+  - {fileID: 672724207}
+  - {fileID: 1760657711}
+  - {fileID: 700187955}
+  - {fileID: 1446312209}
+  - {fileID: 946675240}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!1001 &555919361
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &660778584 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 1830246768}
 --- !u!1 &670788481
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +796,349 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
+--- !u!4 &672724207 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 326415909}
+--- !u!1001 &692645861
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.04702449
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.64454055
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.13536716
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &700187955 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 2005466259}
+--- !u!4 &705631100 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 105056976}
+--- !u!1001 &723355367
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &735630350
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.378
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &741245034 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 1306634511}
+--- !u!1001 &770950096
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &775093896
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &858552621
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &946675240 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 692645861}
+--- !u!1001 &976796149
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.8490243
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.6175406
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.47863293
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1130259048
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,90 +1225,747 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &1629562536
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1629562540}
-  - 33: {fileID: 1629562539}
-  - 65: {fileID: 1629562538}
-  - 23: {fileID: 1629562537}
-  - 114: {fileID: 1629562541}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1629562537
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1629562536}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &1629562538
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1629562536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1629562539
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1629562536}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1629562540
+--- !u!4 &1132364617 stripped
 Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 2064842198}
+--- !u!1001 &1306634511
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1629562536}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8491392, y: 0.28, z: -0.2786255}
-  m_LocalScale: {x: 2, y: 3, z: 5}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
---- !u!114 &1629562541
-MonoBehaviour:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.23397565
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.19663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1376965317
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1629562536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf5dca1799032e4ba49adb7715e434c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.388
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1399472105
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.23397565
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.19663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1446312209 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 976796149}
+--- !u!1001 &1449334147
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1534389005
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1543705520
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.378
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1576240249
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1622351888
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1725392571
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.388
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1755994251
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1760657711 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 71457326}
+--- !u!1001 &1764991177
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1810739377
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1830246768
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.23397565
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.8525405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.44663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2005466259
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.8490243
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.6175406
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.18436694
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2064842198
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 548046386}
+    m_Modifications:
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.23397565
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.3325405
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.19663286
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 163986, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+      propertyPath: m_Name
+      value: WaterDrop (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2090136890
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4401262
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4249017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.762824
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 806dc80df4cbc0d47bf48e9138b81d97, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2120792641 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 468688, guid: 3a1702395b4369f448488e2f7b47e8ab, type: 2}
+  m_PrefabInternal: {fileID: 1399472105}
