@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Orange
+  m_Name: Tree Trunk
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ASYM_ON _COLOR_ON _OUTL_ON _TEX_ON
+  m_ShaderKeywords: _ASYM_ON _COLOR_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: 2000
   stringTagMap: {}
@@ -141,7 +141,7 @@ Material:
       data:
         first:
           name: _DetailTex
-        second: 1
+        second: 0
       data:
         first:
           name: _VertexColor
@@ -153,7 +153,7 @@ Material:
       data:
         first:
           name: _Outl
-        second: 1
+        second: 0
       data:
         first:
           name: _Outline
@@ -170,7 +170,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0.9647059, g: 0.7254902, b: 0.61960787, a: 1}
+        second: {r: 0.2240485, g: 0.060553636, b: 0.29411763, a: 1}
       data:
         first:
           name: _OutlineColor
