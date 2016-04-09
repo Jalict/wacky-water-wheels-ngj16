@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CowSounds : MonoBehaviour {
-	public AudioClip cowSound;
-	public AudioClip cowCollisionSound;
+public class ManSounds : MonoBehaviour {
+	public AudioClip manSound;
+	public AudioClip manCollisionSound;
 	float timer = 0f;
 
 	// Use this for initialization
@@ -15,11 +15,11 @@ public class CowSounds : MonoBehaviour {
 	void Update () {
 		timer += timer * Time.deltaTime;
 		if(timer>=250){
-			AudioSource.PlayClipAtPoint(cowSound, transform.position);
+			AudioSource.PlayClipAtPoint(manSound, transform.position);
 			timer = 0f;
 		}
 	}
 	void OnCollisionEnter(Collision collision){
-		AudioSource.PlayClipAtPoint(cowCollisionSound, transform.position);
+		AudioSource.PlayClipAtPoint(manCollisionSound, transform.position);
 	}
 }
