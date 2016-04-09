@@ -364,6 +364,58 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452160, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: magicForceAmount
+      value: 7000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
   m_IsPrefabParent: 0

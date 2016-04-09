@@ -34,12 +34,19 @@ public class Driver : MonoBehaviour
         power = 0;
 
         if (Input.GetKey(KeyCode.W)) { power = maxPower * Time.deltaTime; }
-        else {/* TIP IT BACK*/ }
         if (Input.GetKey(KeyCode.S)) { power = -maxPower * Time.deltaTime; }
-        else {/* TIP IT BACK*/ }
 
-        if (Input.GetKey(KeyCode.A)) { steer = -1f * maxWheelRotation; rigidBody.AddForceAtPosition(transform.right * magicForceAmount, forcePoint.position, ForceMode.Impulse);}
-        if (Input.GetKey(KeyCode.D)) { steer = 1f * maxWheelRotation; rigidBody.AddForceAtPosition(-transform.right * magicForceAmount, forcePoint.position, ForceMode.Impulse);}
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            steer = -1f * maxWheelRotation;
+            rigidBody.AddForceAtPosition(forcePoint.right * magicForceAmount, forcePoint.position, ForceMode.Force);
+        } else {/* TIP IT BACK*/ }
+        if (Input.GetKey(KeyCode.D))
+        {
+            steer = 1f * maxWheelRotation;
+            rigidBody.AddForceAtPosition(-forcePoint.right * magicForceAmount, forcePoint.position, ForceMode.Force);
+        } else {/* TIP IT BACK*/ }
 
         if (Input.GetKey(KeyCode.Space)) { brake = 1; }
 
