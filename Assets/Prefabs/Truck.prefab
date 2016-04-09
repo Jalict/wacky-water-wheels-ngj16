@@ -123,6 +123,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &112646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 464680}
+  m_Layer: 0
+  m_Name: Helpers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &115318
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +233,21 @@ GameObject:
   - 23: {fileID: 2355300}
   m_Layer: 0
   m_Name: pCube9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &129642
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 416560}
+  m_Layer: 0
+  m_Name: Camera Focus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,6 +695,7 @@ GameObject:
   - 124: {fileID: 12495298}
   - 92: {fileID: 9217066}
   - 81: {fileID: 8165056}
+  - 114: {fileID: 11475262}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -886,6 +917,18 @@ Transform:
   - {fileID: 435782}
   m_Father: {fileID: 433136}
   m_RootOrder: 0
+--- !u!4 &416560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.749, y: 1.53, z: 2.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464680}
+  m_RootOrder: 0
 --- !u!4 &416956
 Transform:
   m_ObjectHideFlags: 1
@@ -1062,6 +1105,7 @@ Transform:
   - {fileID: 466414}
   - {fileID: 444930}
   - {fileID: 416956}
+  - {fileID: 464680}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &444930
@@ -1219,6 +1263,19 @@ Transform:
   - {fileID: 484662}
   m_Father: {fileID: 457580}
   m_RootOrder: 5
+--- !u!4 &464680
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 416560}
+  m_Father: {fileID: 442934}
+  m_RootOrder: 6
 --- !u!4 &466414
 Transform:
   m_ObjectHideFlags: 1
@@ -2006,6 +2063,21 @@ MonoBehaviour:
   - {fileID: 461162}
   - {fileID: 432064}
   maxWheelRotation: 25
+--- !u!114 &11475262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82b835b50064ac4cb800cc0f2c49a53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 416560}
+  minimum: 0
+  maximum: 2
+  amount: 0
 --- !u!124 &12495298
 Behaviour:
   m_ObjectHideFlags: 1
