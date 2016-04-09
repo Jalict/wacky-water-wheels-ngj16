@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CowSounds : MonoBehaviour {
 	public AudioClip cowSound;
+	public AudioClip cowCollisionSound;
 	int timer = 0;
 
 	// Use this for initialization
@@ -12,7 +13,13 @@ public class CowSounds : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		AudioSource.PlayClipAtPoint(cowSound, transform.position);
-	
+		timer++;
+		if(timer>=100){
+			AudioSource.PlayClipAtPoint(cowSound, transform.position);
+			timer = 0;
+		}
+	}
+	void OnCollisionEnter(Collision collision){
+		AudioSource.PlayClipAtPoint(cowCollisionSound, transform.position);
 	}
 }

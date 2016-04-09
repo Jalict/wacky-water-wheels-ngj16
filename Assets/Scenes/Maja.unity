@@ -173,6 +173,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.999999, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &514275611
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 29.146252
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7326827
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.707001
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.012236094
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.012236128
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70700085
+      objectReference: {fileID: 0}
+    - target: {fileID: 442624, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &548046385
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,8 +460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 929734962}
-  minimum: 0
   maximum: 2
+  amount: 0
 --- !u!1001 &1810739377
 Prefab:
   m_ObjectHideFlags: 0

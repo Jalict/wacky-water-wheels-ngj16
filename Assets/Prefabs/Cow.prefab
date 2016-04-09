@@ -351,6 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cowSound: {fileID: 8300000, guid: cbc48e0e7262f5b4f9792626e50a6bdd, type: 3}
+  cowCollisionSound: {fileID: 8300000, guid: d4033e72fac480c4dab590296976b6f7, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

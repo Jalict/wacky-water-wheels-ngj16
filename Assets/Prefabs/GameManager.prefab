@@ -42,6 +42,7 @@ MonoBehaviour:
   water: 0
   newFont: {fileID: 0}
   Tex0: {fileID: 2800000, guid: 9c4ec350e2260488bb776c814ea182df, type: 3}
+  scoreScript: {fileID: 11425242, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
