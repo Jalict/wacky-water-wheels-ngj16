@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class WaterCounter : MonoBehaviour {
+	/*
 	public Font newFont;  
 	public int water = 0;  
 	private int fontSize;
@@ -25,4 +26,6 @@ public class WaterCounter : MonoBehaviour {
 		nStyle.fontSize = 25;
 		GUI.TextField (new Rect (0, Screen.height-30, 200, 200), "Speed: " + speed + " km/h", nStyle);
 	}
+
+*/
 }
