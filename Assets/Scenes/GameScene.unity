@@ -122,7 +122,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 470074, guid: 120a441f74389aa4a86a0122e7679fed, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11441374, guid: 120a441f74389aa4a86a0122e7679fed, type: 2}
       propertyPath: newFont
@@ -208,7 +208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &653323031 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 171068, guid: f18e4b403a9b84860a587af40a06b161, type: 2}
@@ -325,28 +325,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 764fe5042a40c78468b515b67926b0a0, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1827572887 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 177904, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
-  m_PrefabInternal: {fileID: 2032696106}
---- !u!114 &1827572892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1827572887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1927096ef3eba6546be1efe64007ec95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collisionSound1: {fileID: 8300000, guid: 6564fde2b3118c14cb5ed9beb535c4af, type: 3}
-  collisionSound2: {fileID: 8300000, guid: 94413b3a26d213b44ba0c0075a84ad36, type: 3}
-  collisionSound3: {fileID: 8300000, guid: 49aa2c6f32366bf43929905d6ecde479, type: 3}
-  collisionSound4: {fileID: 8300000, guid: afb37057479897240af53aa978a07f02, type: 3}
-  collisionSound5: {fileID: 8300000, guid: 57224c8a3261d3b4598df230ffeb4fbd, type: 3}
-  collisionSound: {fileID: 0}
---- !u!1001 &2032696106
+--- !u!1001 &1957875471
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -385,9 +364,57 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 190552, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_SuspensionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_WheelDampingRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 14694096, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14689120, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14664976, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 14655330, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: m_Radius
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452160, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
+      propertyPath: magicForceAmount
+      value: 7000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f52bc5fca3924e2d91bfb2e230b9abd, type: 2}
