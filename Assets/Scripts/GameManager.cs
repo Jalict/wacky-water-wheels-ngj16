@@ -12,16 +12,24 @@ public class GameManager : MonoBehaviour {
 	bool isMenuOn = false;
 
 	public Texture2D Tex0;
+	public Texture2D Tex1;
+	public Texture2D Tex2;
 	public LeakingWater scoreScript;
 	private bool showScore = false;
+
+	float x; //-146;
+	float height= 865; //(full tank);//195f;+670
 
 
 	// Use this for initialization
 	void Start () {
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		//x = scoreScript.currentWaterAmount+822f;
+
 		if(Input.GetKeyDown(KeyCode.F1)){
 			isMenuOn = !isMenuOn;
 		}
@@ -38,6 +46,8 @@ public class GameManager : MonoBehaviour {
 			showScore = true;
 
 		}
+		x = -scoreScript.currentWaterAmount-103; // NEW
+		
 	}
 	void OnGUI(){
 		GUIStyle nStyle = new GUIStyle ();
@@ -52,6 +62,7 @@ public class GameManager : MonoBehaviour {
 			nStyle.fontSize = 26;
 			GUI.Label (new Rect (0, Screen.height-30, 200, 200), "Press SPACE to restart: " , nStyle);
 			GUI.Label (new Rect (Screen.width-200, 10, 200, 200), "Press Q to quit: " , nStyle);
+
 			if(showScore){
 				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2, 200, 200), "Score: " + scoreScript.score, nStyle);
 			}
@@ -60,10 +71,33 @@ public class GameManager : MonoBehaviour {
 		if(isMenuOn == false){
 			nStyle.normal.textColor = new Color(0,100,255);
 			nStyle.fontSize = 26;
-			GUI.TextField (new Rect (Screen.width-200, 10, 200, 200), "Water: "+water+ " l.", nStyle);
+			//GUI.TextField (new Rect (Screen.width-200, 10, 200, 200), "Water: "+water+ " l.", nStyle);
 			nStyle.normal.textColor = new Color(255,255,0);
 			nStyle.fontSize = 25;
 			GUI.TextField (new Rect (0, Screen.height-30, 200, 200), "Speed: " + speed + " km/h", nStyle);
+
+			nStyle.normal.background = Tex1;
+			GUI.TextField (new Rect (Screen.width-200, 660, 200, 200), "", nStyle);
+			nStyle.normal.background = Tex2;
+			GUI.TextField (new Rect (Screen.width-195, height, 190, x), "", nStyle); //heigth 195
+			
+			if(Input.GetKey(KeyCode.P)){
+				if(x<0){
+				x--;
+				height-=0.14f;
+			}
+
+			}
+			
+			/*
+			if(Input.GetKey(KeyCode.O)){
+				x--;
+				height+=0.14f;
+			}
+			*/
+
+			nStyle.normal.background = null;
+			Debug.Log(x);
 		}
 	}
 }
