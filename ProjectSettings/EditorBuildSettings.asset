@@ -31,5 +31,7 @@ EditorBuildSettings:
     path: Assets/SampleScenes/Scenes/RollerBall.unity
   - enabled: 0
     path: Assets/Scenes/Maja.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestCity.unity
+  - enabled: 1
+    path: Assets/Scenes/City.unity

@@ -40,6 +40,7 @@ public class Driver : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             steer = -1f * maxWheelRotation;
+            
             rigidBody.AddForceAtPosition(forcePoint.right * magicForceAmount, forcePoint.position, ForceMode.Force);
         } else {/* TIP IT BACK*/ }
         if (Input.GetKey(KeyCode.D))

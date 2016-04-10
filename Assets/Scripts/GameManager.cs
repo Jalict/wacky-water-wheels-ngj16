@@ -3,29 +3,38 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 	//Water and speed
-	public int water = 0;  
+	public int water = 0;
 	private int speed = 0;
 
 	//GUI
-	public Font newFont;   
+	public Font newFont;
 	private int fontSize;
 	bool isMenuOn = false;
 
-	public Texture2D Tex0;
-	public Texture2D Tex1;
-	public Texture2D Tex2;
+	public Texture2D backgroundTexture;
+	public Texture2D hydroLevelTexture;
+	public Texture2D topWaterTexture;
 	public LeakingWater scoreScript;
-	private bool showScore = false;
+    private bool showScore = false;
 
-	float x; //-146;
+    public GameObject[] finishSpots;
+    public int currentObjectiveIndex;
+
+    float x; //-146;
 	float height= 865; //(full tank);//195f;+670
 
 
 	// Use this for initialization
 	void Start () {
+        currentObjectiveIndex = Random.Range(0, finishSpots.Length);
 
-	}
-	
+        for (int i = 0; i < finishSpots.Length; i++)
+        {
+			if(i != currentObjectiveIndex)
+				finishSpots[i].SetActive(false);
+		}
+    }
+
 	// Update is called once per frame
 	void Update () {
 		//x = scoreScript.currentWaterAmount+822f;
@@ -47,15 +56,15 @@ public class GameManager : MonoBehaviour {
 
 		}
 		x = -scoreScript.currentWaterAmount-103; // NEW
-		
+
 	}
 	void OnGUI(){
 		GUIStyle nStyle = new GUIStyle ();
 		nStyle.font = newFont;
 		nStyle.normal.textColor = new Color(0,100,255);
-	
+
 		if(isMenuOn == true){
-			nStyle.normal.background = Tex0;
+			nStyle.normal.background = backgroundTexture;
 			nStyle.fontSize = 60;
 			GUI.Box(new Rect(0,0,Screen.width,Screen.height), "Menu",nStyle);
 			nStyle.normal.background = null;
@@ -76,11 +85,11 @@ public class GameManager : MonoBehaviour {
 			nStyle.fontSize = 25;
 			GUI.TextField (new Rect (0, Screen.height-30, 200, 200), "Speed: " + speed + " km/h", nStyle);
 
-			nStyle.normal.background = Tex1;
+			nStyle.normal.background = hydroLevelTexture;
 			GUI.TextField (new Rect (Screen.width-200, 660, 200, 200), "", nStyle);
-			nStyle.normal.background = Tex2;
+			nStyle.normal.background = topWaterTexture;
 			GUI.TextField (new Rect (Screen.width-195, height, 190, x), "", nStyle); //heigth 195
-			
+
 			if(Input.GetKey(KeyCode.P)){
 				if(x<0){
 				x--;
@@ -88,7 +97,7 @@ public class GameManager : MonoBehaviour {
 			}
 
 			}
-			
+
 			/*
 			if(Input.GetKey(KeyCode.O)){
 				x--;
@@ -97,7 +106,6 @@ public class GameManager : MonoBehaviour {
 			*/
 
 			nStyle.normal.background = null;
-			Debug.Log(x);
 		}
 	}
 }
