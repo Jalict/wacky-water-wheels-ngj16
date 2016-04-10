@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: aa344d68d7ef35348918c35c97c45dce
-timeCreated: 1460236665
+guid: 2ec48baa208f443fcbbdd2a510b4da25
+timeCreated: 1460236210
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -52,6 +52,15 @@ ModelImporter:
     4300012: pCube37
     4300014: pCube38
     4300016: pCylinder14
+    6400000: pCube35
+    6400002: pCube36
+    6400004: pCube37
+    6400006: pCube38
+    6400008: pCylinder11
+    6400010: pCylinder12
+    6400012: pCylinder13
+    6400014: pCylinder14
+    6400016: pPipe2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -74,12 +83,12 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 20
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -93,9 +102,9 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 23
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
