@@ -60,7 +60,7 @@ public class LeakingWater : MonoBehaviour {
 			runningTime = Time.time - startTime;
 		}
 		Debug.Log(Vector3.Distance(transform.position, failTarget.position));
-		if(Vector3.Distance(transform.position, failTarget.position) > 4){
+		if(Vector3.Distance(transform.position, failTarget.position) > 8){
 			gameFinished = true;
 		}
 	}
