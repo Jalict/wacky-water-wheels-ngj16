@@ -33,7 +33,7 @@ public class CameraSlide : MonoBehaviour {
             amount += 14f * Time.deltaTime;
         }
 
-        transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0.71f + amount, transform.localPosition.y, transform.localPosition.z), smooth * Time.deltaTime);
+        transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0.87f + amount, transform.localPosition.y, transform.localPosition.z), smooth * Time.deltaTime);
 
 		transform.LookAt(target);
     }
