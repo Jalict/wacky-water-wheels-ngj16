@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	public LeakingWater scoreScript;
 	public DepthOfField DOFScript;
     private bool showScore = false;
+    public Arrow arrow;
 
     public GameObject[] finishSpots;
     public int currentObjectiveIndex;
@@ -34,8 +35,10 @@ public class GameManager : MonoBehaviour {
         for (int i = 0; i < finishSpots.Length; i++)
         {
 			if(i != currentObjectiveIndex)
-				finishSpots[i].SetActive(false);
-		}
+                finishSpots[i].SetActive(false);
+            else
+                arrow.targetLocation = finishSpots[i].gameObject.transform;
+        }
     }
 
 	// Update is called once per frame
