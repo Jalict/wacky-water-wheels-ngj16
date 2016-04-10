@@ -86,24 +86,9 @@ public class GameManager : MonoBehaviour {
 			GUI.TextField (new Rect (0, Screen.height-30, 200, 200), "Speed: " + speed + " km/h", nStyle);
 
 			nStyle.normal.background = hydroLevelTexture;
-			GUI.TextField (new Rect (Screen.width-200, 660, 200, 200), "", nStyle);
+			GUI.TextField (new Rect (Screen.width-200, height - 400, 200, 200), "", nStyle);
 			nStyle.normal.background = topWaterTexture;
-			GUI.TextField (new Rect (Screen.width-195, height, 190, x), "", nStyle); //heigth 195
-
-			if(Input.GetKey(KeyCode.P)){
-				if(x<0){
-				x--;
-				height-=0.14f;
-			}
-
-			}
-
-			/*
-			if(Input.GetKey(KeyCode.O)){
-				x--;
-				height+=0.14f;
-			}
-			*/
+			GUI.TextField (new Rect (Screen.width-195, height - 195, 190, x), "", nStyle); //heigth 195
 
 			nStyle.normal.background = null;
 		}

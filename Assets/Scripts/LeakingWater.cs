@@ -5,8 +5,10 @@ public class LeakingWater : MonoBehaviour {
 
 	public float currentWaterAmount = 43f;
 	private float emptyTruck = -38f;
+	private float waterDifferance;
 	private float fullTank;
 	public GameObject waterPlane;
+	public Transform failTarget;
 	private float waterRotation;
 	public ParticleSystem rightParticleSystem;
 	public ParticleSystem leftParticleSystem;
@@ -29,10 +31,11 @@ public class LeakingWater : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		waterDifferance = fullTank / (currentWaterAmount + 38);
 		if(currentWaterAmount > emptyTruck){
-			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 2.5f * (fullTank / (currentWaterAmount + 38))) { 
+			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 2.0f * waterDifferance) { 
 				Vector3 v = waterPlane.transform.localPosition;
-				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/50;
+				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/(50/waterDifferance);
 				v.y = currentWaterAmount;
 				waterPlane.transform.localPosition = v;
 				if(transform.localRotation.z * Mathf.Rad2Deg < -1f){
@@ -55,6 +58,10 @@ public class LeakingWater : MonoBehaviour {
 	void FixedUpdate() {
 		if(gameFinished){
 			runningTime = Time.time - startTime;
+		}
+		Debug.Log(Vector3.Distance(transform.position, failTarget.position));
+		if(Vector3.Distance(transform.position, failTarget.position) > 4){
+			gameFinished = true;
 		}
 	}
 
