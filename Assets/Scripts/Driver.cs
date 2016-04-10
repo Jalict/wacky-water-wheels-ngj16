@@ -38,18 +38,18 @@ public class Driver : MonoBehaviour
         brake = 0;
         power = 0;
 
-        if (Input.GetKey(KeyCode.W)){ 
-            power = maxPower * Time.deltaTime;
+        if (Input.GetKey(KeyCode.W)){
+            power += maxPower * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.S)) { 
-            power = -maxPower * Time.deltaTime; 
+        if (Input.GetKey(KeyCode.S)) {
+            power += -maxPower * Time.deltaTime;
         }
 
 
         if (Input.GetKey(KeyCode.A))
         {
             steer = -1f * maxWheelRotation;
-            
+
             rigidBody.AddForceAtPosition(forcePoint.right * magicForceAmount, forcePoint.position, ForceMode.Force);
         } else {/* TIP IT BACK*/ }
         if (Input.GetKey(KeyCode.D))
