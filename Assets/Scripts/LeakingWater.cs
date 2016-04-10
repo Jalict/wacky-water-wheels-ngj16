@@ -28,12 +28,12 @@ public class LeakingWater : MonoBehaviour {
 		score = 0;
 		fullTank = currentWaterAmount + Mathf.Abs(emptyTruck);
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		waterDifferance = fullTank / (currentWaterAmount + 38);
 		if(currentWaterAmount > emptyTruck){
-			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 2.0f * waterDifferance) { 
+			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 2.0f * waterDifferance) {
 				Vector3 v = waterPlane.transform.localPosition;
 				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/(50/waterDifferance);
 				v.y = currentWaterAmount;
@@ -70,9 +70,9 @@ public class LeakingWater : MonoBehaviour {
         {
         	gameFinished = true;
         	score = (((int)(runningTime / (Mathf.Pow((int)runningTime,2))) + 123) * 44) + ((int)currentWaterAmount + 39) * 25;
-            Destroy(col.gameObject);
+            //Destroy(col.gameObject);
         }
-    } 
+    }
 
 
 }
