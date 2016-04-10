@@ -102,6 +102,7 @@ GameObject:
   - 4: {fileID: 496562}
   - 33: {fileID: 3310396}
   - 23: {fileID: 2387958}
+  - 65: {fileID: 6583260}
   m_Layer: 0
   m_Name: HouseTextured (3)
   m_TagString: Untagged
@@ -851,6 +852,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139014}
   m_Mesh: {fileID: 4300002, guid: 52311833619d748149537f7f00188bc2, type: 3}
+--- !u!65 &6583260
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 175.44608, y: 282.76514, z: 181.30563}
+  m_Center: {x: 0.000015258789, y: 48.539036, z: 2.9296303}
 --- !u!95 &9507368
 Animator:
   serializedVersion: 3
