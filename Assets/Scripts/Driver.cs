@@ -9,6 +9,10 @@ public class Driver : MonoBehaviour
 
     private Rigidbody rigidBody;
 
+    private AudioSource acceSound;
+    private float p;
+    private float avgRpm;
+
     public float maxWheelRotation;
     public float maxPower;
     public float magicForceAmount;
@@ -24,6 +28,7 @@ public class Driver : MonoBehaviour
         steer = 0;
 
         rigidBody = GetComponent<Rigidbody>();
+        acceSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,8 +38,12 @@ public class Driver : MonoBehaviour
         brake = 0;
         power = 0;
 
-        if (Input.GetKey(KeyCode.W)) { power = maxPower * Time.deltaTime; }
-        if (Input.GetKey(KeyCode.S)) { power = -maxPower * Time.deltaTime; }
+        if (Input.GetKey(KeyCode.W)){ 
+            power = maxPower * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.S)) { 
+            power = -maxPower * Time.deltaTime; 
+        }
 
 
         if (Input.GetKey(KeyCode.A))
@@ -51,12 +60,21 @@ public class Driver : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space)) { brake = 1; }
 
+        if(rigidBody.velocity.magnitude > 1){
+            p = rigidBody.velocity.magnitude / 10;
+            acceSound.pitch = Mathf.Clamp(p, 0.3f, 1.0f);
+        } else if (rigidBody.velocity.magnitude < 1){
+            acceSound.pitch = 0.3f;
+        }
+
         Move(power, steer, brake);
     }
 
     void Move(float power, float steer, float brake) {
+        avgRpm = 0;
         foreach (WheelCollider wheelCollider in wheelColliders)
         {
+            avgRpm += wheelCollider.rpm;
             // BRAKING
             if(brake > 0) {
                 wheelCollider.brakeTorque = brake;
@@ -74,6 +92,8 @@ public class Driver : MonoBehaviour
                 wheelCollider.steerAngle = steer;
 
         }
+
+        avgRpm /= wheelColliders.Length;
 
         foreach (Transform wheelTransform in wheelTransforms)
         {
