@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		//x = scoreScript.currentWaterAmount+822f;
 
-		if(Input.GetKeyDown(KeyCode.F1) && showScore == false){
+		if((Input.GetKeyDown(KeyCode.F1) || Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)) && showScore == false){
 			isMenuOn = !isMenuOn;
 		}
 		if(isMenuOn == true){
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour {
                 //Application.LoadLevel(0);
 				SceneManager.LoadScene(0);
 			}
-			if(Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Escape)){
+			if(Input.GetKeyDown(KeyCode.Q)){
 				Application.Quit();
 			}
 		}
