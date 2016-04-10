@@ -33,9 +33,9 @@ public class LeakingWater : MonoBehaviour {
 	void Update () {
 		waterDifferance = fullTank / (currentWaterAmount + 38);
 		if(currentWaterAmount > emptyTruck){
-			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 2.0f * waterDifferance) {
+			if(Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg) > 1.8f * waterDifferance) {
 				Vector3 v = waterPlane.transform.localPosition;
-				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/(50/waterDifferance);
+				currentWaterAmount -= Mathf.Abs(transform.localRotation.z * Mathf.Rad2Deg)/(25/waterDifferance);
 				v.y = currentWaterAmount;
 				waterPlane.transform.localPosition = v;
 				if(transform.localRotation.z * Mathf.Rad2Deg < -1f){
