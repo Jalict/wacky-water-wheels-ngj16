@@ -6,6 +6,7 @@ public class Driver : MonoBehaviour
     public WheelCollider[] wheelColliders;
     public Transform[] wheelTransforms;
     public Transform forcePoint;
+    public AudioSource horn;
 
     private Rigidbody rigidBody;
 
@@ -37,6 +38,10 @@ public class Driver : MonoBehaviour
         steer = 0;
         brake = 0;
         power = 0;
+
+        if(Input.GetKeyDown(KeyCode.H) && !horn.isPlaying) {
+            horn.Play();
+        }
 
         if (Input.GetKey(KeyCode.W)){
             power += maxPower * Time.deltaTime;
