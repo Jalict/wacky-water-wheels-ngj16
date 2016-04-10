@@ -73,16 +73,16 @@ public class GameManager : MonoBehaviour {
 		if(isMenuOn == true){
 			DOFScript.enabled = true;
 			//nStyle.normal.background = backgroundTexture;
-			nStyle.fontSize = 60;
-			GUI.Box(new Rect(0,0,Screen.width,Screen.height), "Menu",nStyle);
 			nStyle.normal.background = null;
-			nStyle.fontSize = 26;
-			GUI.Label (new Rect (0, Screen.height-30, 200, 200), "Press SPACE to restart: " , nStyle);
-			GUI.Label (new Rect (Screen.width-200, 10, 200, 200), "Press Q to quit: " , nStyle);
+			nStyle.fontSize = 30;
+			GUI.Label (new Rect (10, Screen.height-40, 200, 200), "Press SPACE to restart: " , nStyle);
+			GUI.Label (new Rect (Screen.width-250, 10, 200, 200), "Press Q to quit" , nStyle);
 
 			if(showScore){
-				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2 - 40, 200, 200), "GAME OVER!", nStyle);
-				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2, 200, 200), "Score: " + scoreScript.score, nStyle);
+				nStyle.fontSize = 100;
+				GUI.TextField (new Rect (Screen.width/2 - 300, Screen.height/2 - 100, 200, 200), "GAME OVER!", nStyle);
+				nStyle.fontSize = 60;
+				GUI.TextField (new Rect (Screen.width/2 - 160, Screen.height/2 + 40, 200, 200), "Score: " + scoreScript.score, nStyle);
 			}
 
 		}else {
