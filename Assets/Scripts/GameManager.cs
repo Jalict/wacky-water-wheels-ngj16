@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		//x = scoreScript.currentWaterAmount+822f;
 
-		if(Input.GetKeyDown(KeyCode.F1)){
+		if(Input.GetKeyDown(KeyCode.F1) && showScore == false){
 			isMenuOn = !isMenuOn;
 		}
 		if(isMenuOn == true){
@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour {
 			GUI.Label (new Rect (Screen.width-200, 10, 200, 200), "Press Q to quit: " , nStyle);
 
 			if(showScore){
+				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2 - 40, 200, 200), "GAME OVER!", nStyle);
 				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2, 200, 200), "Score: " + scoreScript.score, nStyle);
 			}
 
@@ -85,12 +86,11 @@ public class GameManager : MonoBehaviour {
 			//GUI.TextField (new Rect (Screen.width-200, 10, 200, 200), "Water: "+water+ " l.", nStyle);
 			nStyle.normal.textColor = new Color(255,255,0);
 			nStyle.fontSize = 25;
-			GUI.TextField (new Rect (0, Screen.height-30, 200, 200), "Speed: " + speed + " km/h", nStyle);
 
 			nStyle.normal.background = hydroLevelTexture;
-			GUI.TextField (new Rect (Screen.width-200, height - 400, 200, 200), "", nStyle);
+			GUI.TextField (new Rect (Screen.width-200, Screen.height - 200, 200, 200), "", nStyle);
 			nStyle.normal.background = topWaterTexture;
-			GUI.TextField (new Rect (Screen.width-195, height - 195, 190, x), "", nStyle); //heigth 195
+			GUI.TextField (new Rect (Screen.width-195, Screen.height + 5, 190, x), "", nStyle); //heigth 195
 
 			nStyle.normal.background = null;
 		}
