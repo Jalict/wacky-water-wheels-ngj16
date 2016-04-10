@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour {
     private bool showScore = false;
     public Arrow arrow;
 
+    public bool isAllowedToDepth = false;
+
     public GameObject[] finishSpots;
     public int currentObjectiveIndex;
 
@@ -70,8 +72,10 @@ public class GameManager : MonoBehaviour {
 		nStyle.font = newFont;
 		nStyle.normal.textColor = new Color(0,0,0);
 
-		if(isMenuOn == true){
-			DOFScript.enabled = true;
+        if (isMenuOn == true)
+        {
+			if(isAllowedToDepth)
+				DOFScript.enabled = true;
 			//nStyle.normal.background = backgroundTexture;
 			nStyle.normal.background = null;
 			nStyle.fontSize = 30;
@@ -85,8 +89,10 @@ public class GameManager : MonoBehaviour {
 				GUI.TextField (new Rect (Screen.width/2 - 160, Screen.height/2 + 40, 200, 200), "Score: " + scoreScript.score, nStyle);
 			}
 
-		}else {
-			DOFScript.enabled = false;
+        }
+        else {
+			if(isAllowedToDepth)
+				DOFScript.enabled = false;
 		}
 		if(isMenuOn == false){
 			nStyle.normal.textColor = new Color(0,100,255);
