@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 	//Water and speed
 	public int water = 0;
-	private int speed = 0;
+    private int speed = 0;
 
-	//GUI
-	public Font newFont;
+    //GUI
+    public Font newFont;
 	private int fontSize;
 	bool isMenuOn = false;
 
@@ -44,7 +45,8 @@ public class GameManager : MonoBehaviour {
 		}
 		if(isMenuOn == true){
 			if(Input.GetKeyDown(KeyCode.Space)){
-				Application.LoadLevel (0);
+                //Application.LoadLevel(0);
+				SceneManager.LoadScene(0);
 			}
 			if(Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Escape)){
 				Application.Quit();
