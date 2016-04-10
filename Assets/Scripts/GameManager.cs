@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.ImageEffects;
 
 public class GameManager : MonoBehaviour {
 	//Water and speed
 	public int water = 0;
-    private int speed = 0;
+    //private int speed = 0;
 
     //GUI
     public Font newFont;
@@ -16,13 +17,14 @@ public class GameManager : MonoBehaviour {
 	public Texture2D hydroLevelTexture;
 	public Texture2D topWaterTexture;
 	public LeakingWater scoreScript;
+	public DepthOfField DOFScript;
     private bool showScore = false;
 
     public GameObject[] finishSpots;
     public int currentObjectiveIndex;
 
     float x; //-146;
-	float height= 865; //(full tank);//195f;+670
+	//float height= 865; //(full tank);//195f;+670
 
 
 	// Use this for initialization
@@ -63,10 +65,11 @@ public class GameManager : MonoBehaviour {
 	void OnGUI(){
 		GUIStyle nStyle = new GUIStyle ();
 		nStyle.font = newFont;
-		nStyle.normal.textColor = new Color(0,100,255);
+		nStyle.normal.textColor = new Color(0,0,0);
 
 		if(isMenuOn == true){
-			nStyle.normal.background = backgroundTexture;
+			DOFScript.enabled = true;
+			//nStyle.normal.background = backgroundTexture;
 			nStyle.fontSize = 60;
 			GUI.Box(new Rect(0,0,Screen.width,Screen.height), "Menu",nStyle);
 			nStyle.normal.background = null;
@@ -79,7 +82,9 @@ public class GameManager : MonoBehaviour {
 				GUI.TextField (new Rect (Screen.width/2 - 40, Screen.height/2, 200, 200), "Score: " + scoreScript.score, nStyle);
 			}
 
-	}
+		}else {
+			DOFScript.enabled = false;
+		}
 		if(isMenuOn == false){
 			nStyle.normal.textColor = new Color(0,100,255);
 			nStyle.fontSize = 26;

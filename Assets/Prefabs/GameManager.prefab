@@ -45,6 +45,7 @@ MonoBehaviour:
   hydroLevelTexture: {fileID: 2800000, guid: cc69c812363a29a44b5678b37c3fa257, type: 3}
   topWaterTexture: {fileID: 2800000, guid: f71acaf971cf03048a57a37cd94f2c6e, type: 3}
   scoreScript: {fileID: 0}
+  DOFScript: {fileID: 0}
   finishSpots:
   - {fileID: 0}
   - {fileID: 0}
